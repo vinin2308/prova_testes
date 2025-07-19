@@ -1,10 +1,24 @@
 {
   "name": "prova_testes",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "private": true
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinin2308/prova_testes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinin2308/prova_testes/issues"
+  },
+  "homepage": "https://github.com/vinin2308/prova_testes#readme",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.5.2"
+  }
 }
