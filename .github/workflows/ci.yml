@@ -11,7 +11,6 @@ on:
 jobs:
   cypress-run:
     runs-on: ubuntu-latest # O sistema operacional onde os testes serão executados
-
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4 # Baixa o código do seu repositório
@@ -19,7 +18,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22' # Use a versão do Node.js que seu projeto requer
+          node-version: '18' # Use a versão do Node.js que seu projeto requer
 
       - name: Install Dependencies
         run: npm i
